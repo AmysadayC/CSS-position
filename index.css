@@ -18,24 +18,33 @@ div {
 
 #div1 {
     background-color: red;
+    position: static;
 }
 
 #div2 {
     background-color: blue;
-    
+    position: absolute;
+    bottom: 0px;
+    right: 55%;
 }
 
 #div3 {
     background-color: orange;
-    
+    position: relative;
+    left: 50px;
+    top: 20px;
 }
 
 #div4 {
     background-color: green;
-    
+    position: fixed;
+    top: 50%;
+    right: 0px;
 }
 
 #div5 {
     background-color: purple;
-    
+    position: sticky;
+    top: 20px;
+    left: 89px;
 }
